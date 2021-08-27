@@ -1,38 +1,33 @@
 # Template para desenvolvimento e entrega de NAC
 
-Esse é um guia simples, o grupo pode e deve modificar o template conforme necessidade. 
+**PONTO E VIRGULA**
 
-# Nome do projeto
+# Nome do projeto - ESTAÇÃO METEOROLÓGICA
 
-**nome dos alunos:** 
+**nome dos alunos:
+Bianca Nunes Ferraz Cabral
+Lennyk Macedo dos Santos
+Lucas Ferreira Gonçalves
+Micaela Mota Santos
+Nalita Tsu Kao** 
 
-**Turma:**
+**Turma:2TDSG**
 
-**Ano:**
+**Ano:2021**
 
 ## Objetivo / descrição do Projeto
 
-Explique de forma clara qual o objeto deste projeto, para que serve e comente as principais tecnologias utilizadas. 
-
-## Diagrama do projeto
-
-Adicione uma ou mais fotos do projeto, pode ser uma imagem da arquitetura, do circuito eletrônico do Flow desenvolvido. 
-
-<img src="/imagem.jpg" width="550">
+Foi solicitado na Classe de DISRUPTIVE ARCHITECTURES IOT & IA que fosse reproduzido através de arduino en conjunto com node-red e protocolo MQTT uma estação meteorológica, onde fosse capaz de medir Temperatura, Luminosidade e Km/H dos ventos, dessa maneira fizemos em conjunto utilizando sensores e lógica de programação o projeto descrito, o mesmo também é capaz de realizar notificação via Twitter através da API disnipobilizada na sua plataforma de desenvolvimento.
 
 
 ## Como usar 
 
-Explique como rodar o seu projeto. Quais programas instalar, como configurar... 
+Primeiro deve baixar os arquivos de simulação arduino, neste mesmo git, será nessario SimulIDE onde você conseguirá importar tanto o arduino quanto o código do mesmo, em seguida deve importar os arquivos de Node-RED para que seja gerado JSON das informações geradas em arduino, logo após com as portas devidamente instaladas e configuradas no seu computador, as informações estarão sincronizadas e preparadas para encaminhar ao Twitter quando o trigger for disparado.
 
-* Pode ser utilizado marcadores
-* Para ajudar na formatação
 
 Ou qualquer outra tabulação:
 
-- [x] Youtube
-- [ ] Facebook 
-- [x] Instagram
+- [x] Twiiter
 
 Pode adicionar algum trecho de código, por exemplo para clonar esse repositório:
 
