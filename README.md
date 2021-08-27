@@ -1,10 +1,10 @@
 # PONTO E VIRGULA
 Nome dos Alunos:
--Bianca Nunes Ferraz Cabral
--Lennyk Macedo dos Santos
--Lucas Ferreira Gonçalves
--Micaela Mota Santos
--Nalita Tsu Kao
+- Bianca Nunes Ferraz Cabral
+- Lennyk Macedo dos Santos
+- Lucas Ferreira Gonçalves
+- Micaela Mota Santos
+- Nalita Tsu Kao
 
 
 # Nome do projeto - ESTAÇÃO METEOROLÓGICA
@@ -23,13 +23,12 @@ Foi solicitado na Classe de DISRUPTIVE ARCHITECTURES IOT & IA que fosse reproduz
 Primeiro deve baixar os arquivos de simulação arduino, neste mesmo git, será nessario SimulIDE onde você conseguirá importar tanto o arduino quanto o código do mesmo, em seguida deve importar os arquivos de Node-RED para que seja gerado JSON das informações geradas em arduino, logo após com as portas devidamente instaladas e configuradas no seu computador, as informações estarão sincronizadas e preparadas para encaminhar ao Twitter quando o trigger for disparado.
 
 
-Pode adicionar algum trecho de código, por exemplo para clonar esse repositório:
+Função para calculo da Velocidade do vento:
 
-    cd /home/iot
-    git clone https://github.com/arnaldojr/templatenac
-    cd templatenac
-    ls
-
+    void SpeedWind() {
+    speedwind = (((2 * pi * radius * RPM) / 60) / 1000) * 3.6; //Calcula velocidade do vento em km/h
+    }
+   
 
 ## Link de vídeo demonstração
 
