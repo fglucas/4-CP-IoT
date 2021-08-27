@@ -1,15 +1,13 @@
-# Template para desenvolvimento e entrega de NAC
+# PONTO E VIRGULA
+Nome dos Alunos:
+-Bianca Nunes Ferraz Cabral
+-Lennyk Macedo dos Santos
+-Lucas Ferreira Gonçalves
+-Micaela Mota Santos
+-Nalita Tsu Kao
 
-**PONTO E VIRGULA**
 
 # Nome do projeto - ESTAÇÃO METEOROLÓGICA
-
-**nome dos alunos:
-Bianca Nunes Ferraz Cabral
-Lennyk Macedo dos Santos
-Lucas Ferreira Gonçalves
-Micaela Mota Santos
-Nalita Tsu Kao** 
 
 **Turma:2TDSG**
 
@@ -25,10 +23,6 @@ Foi solicitado na Classe de DISRUPTIVE ARCHITECTURES IOT & IA que fosse reproduz
 Primeiro deve baixar os arquivos de simulação arduino, neste mesmo git, será nessario SimulIDE onde você conseguirá importar tanto o arduino quanto o código do mesmo, em seguida deve importar os arquivos de Node-RED para que seja gerado JSON das informações geradas em arduino, logo após com as portas devidamente instaladas e configuradas no seu computador, as informações estarão sincronizadas e preparadas para encaminhar ao Twitter quando o trigger for disparado.
 
 
-Ou qualquer outra tabulação:
-
-- [x] Twiiter
-
 Pode adicionar algum trecho de código, por exemplo para clonar esse repositório:
 
     cd /home/iot
@@ -39,9 +33,7 @@ Pode adicionar algum trecho de código, por exemplo para clonar esse repositóri
 
 ## Link de vídeo demonstração
 
-Adicione o link para assistir ao vídeo do projeto funcionando.
-
-[Link para o video youtube](https://www.youtube.com/watch?v=xva71wynxS0)
+[Link para o video youtube](https://youtu.be/1kdAc_ag8eI)
 
 
 ### Referências 
