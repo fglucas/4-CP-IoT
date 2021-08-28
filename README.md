@@ -17,6 +17,8 @@ Nome dos Alunos:
 
 Foi solicitado na Classe de DISRUPTIVE ARCHITECTURES IOT & IA que fosse reproduzido através de arduino en conjunto com node-red e protocolo MQTT uma estação meteorológica, onde fosse capaz de medir Temperatura, Luminosidade e Km/H dos ventos, dessa maneira fizemos em conjunto utilizando sensores e lógica de programação o projeto descrito, o mesmo também é capaz de realizar notificação via Twitter através da API disnipobilizada na sua plataforma de desenvolvimento.
 
+//Diretorio Menor: Referente onde retiramos alguns calculos e linhas para ser adicionado ao projeto.
+
 
 ## Como usar 
 
@@ -39,3 +41,4 @@ Função para calculo da Velocidade do vento:
 
 * [mastering-markdown](https://guides.github.com/features/mastering-markdown/)
 * [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
+* [UsinaInfo](https://www.usinainfo.com.br/blog/anemometro-arduino-um-sensor-de-vento-para-estacao-meteorologica/)
